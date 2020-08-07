@@ -159,7 +159,6 @@ nav .show-menu span {
     width: 111px;
     height: 111px;
     margin: 0 auto;
-    background-color: #000;
 }
 
 
@@ -167,7 +166,10 @@ nav .show-menu span {
 
 .portfolio-container {
     margin: 0 auto;
-    padding: 45px 0 70px 0;
+    padding: 45px 0 70px 0;    
+    background: #9ccbc0;
+    color: #fff;
+}
 }
 
 .portfolio h2 {
@@ -290,7 +292,7 @@ nav .show-menu span {
 
 .team-box-photo {
 	float: left;
-	width: 140px;
+	width: 400px;
 }
 
 .team-box-photo img {
@@ -482,8 +484,9 @@ nav .show-menu span {
 
 .blog-all-posts {
 	margin-top: 30px;
+
 }
-.blog-all-posts a { margin: 0; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
+.blog-all-posts a { margin: 0; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; background-color: #800000; }
 
 
 /***** Slider *****/
