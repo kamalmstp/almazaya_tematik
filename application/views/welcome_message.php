@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-<!-- Mirrored from previews.customer.envatousercontent.com/files/265378886/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Aug 2020 01:45:51 GMT -->
 <head>
     <meta charset="UTF-8">  
     <meta name="description" content="Ogani Template">
@@ -10,22 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Al-Qur'an Tematik Almazaya Islamic School</title>
-
     <title>WowBook, a flipbook jQuery plugin Preview - CodeCanyon</title>
     <script>
-        // Break out iframe on iOS cause safari expand iframe to fit the content, thus making
-        // the lightbox bigger than the browser window.
-        // We need to check for MSStream because Microsoft injected the word iPhone in IE11's userAgent therefore we need to exclude it.
         var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
         if (iOS && top.location!= self.location) {
             top.location = self.location.href;
         }
     </script>
-
-
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
-
-    <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="<?php base_url()?>assets/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="<?php base_url()?>assets/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="<?php base_url()?>assets/css/elegant-icons.css" type="text/css">
@@ -34,29 +23,15 @@
     <link rel="stylesheet" href="<?php base_url()?>assets/css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="<?php base_url()?>assets/css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="<?php base_url()?>assets/css/style.css" type="text/css">
-
-<!-- sudah -->
-    <!-- Plugin CSS -->
     <link rel="stylesheet" href="<?php base_url()?>assets/css/animate.min.css" type="text/css">
     <link rel="stylesheet" href="<?php base_url()?>assets/css/creative.css" type="text/css">
-<!-- habis sudah -->
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 
 <body id="page-top">
-
     <!-- Page Preloder -->
     <div id="preloder">
         <div class="loader"></div>
     </div>    
-
     <!-- Header Section Begin -->
     <header class="header" style="min-height: 0;">
         <div class="container">
@@ -73,7 +48,6 @@
         </div>
     </header>
     <!-- Header Section End -->
-
     <!-- Hero Section Begin -->
     <section class="hero" style="padding: 0 0 50px 0;">
         <div class="container">
@@ -109,7 +83,9 @@
         </div>
     </section>
 
-<div style='display: none'><div id='book2'></div></div>
+    <div style='display: none'>
+        <div id='book2'></div>
+    </div>
     <!-- Categories Section End -->
     <style>
         .hidden-FIXME{
@@ -184,7 +160,6 @@
             border-radius: 3px;
         }
 
-
         .lightbox-images1 .wowbook-book-container {
             background: #6d6b92; /* Old browsers */
             background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #6d6b92 100%); /* FF3.6-15 */
@@ -201,17 +176,12 @@
             background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%,#1E2831 100%); /* Chrome10-25,Safari5.1-6 */
             background: radial-gradient(ellipse at center, #ffffff 0%,#1E2831 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         }
-
-
-
         .lightbox-pdf  .wowbook-book-container {
             background: #e5e5e5 url(https://previews.customer.envatousercontent.com/files/265378886/img/bg-lightbox-pdf.png); /* Old browsers */
             background: #e5e5e5 -moz-radial-gradient(center, ellipse cover, #ffffff 20%, #bbbbbb 100%); /* FF3.6-15 */
             background: #e5e5e5 -webkit-radial-gradient(center, ellipse cover, #ffffff 20%,#bbbbbb 100%); /* Chrome10-25,Safari5.1-6 */
             background: #e5e5e5 radial-gradient(ellipse at center, #ffffff 20%,#bbbbbb 100%); /* W3C, IE10+, FF16+, Chrome26+,Opera12+, Safari7+*/
         }
-
-
         .lightbox-html  .wowbook-book-container {
             background: url(wood.jpg);
         }
@@ -233,38 +203,16 @@
             border-radius: 0;
             width: 100%;
         }
-
-
-/*      .lightbox-html .wowbook-controls {
-            border-radius: 6px;
-            width: auto;
-            background: none;
-            color: rgba(60, 20, 20, 0.8);
-            text-shadow: 0 1px 0 #fff;
-            box-shadow: none;
-        }
-        .lightbox-html .wowbook-control:hover {
-            background: none;
-            color: white;
-            text-shadow: 0 1px 0 #fff, 0 0px 5px rgba(60, 20, 20, 1);
-            text-shadow: 0 1px 0 #fff, 0 0px 3px #fff;
-        }
-*/
         hr {
             max-width: 450px;
         }
     </style>
-
-    <!-- jQuery -->
     <script src="<?php base_url()?>assets/js/jquery.js"></script>
     <script>
         imageBook = ["1", "8"][ Math.floor(Math.random()*2)];
         imageBookPath = "./img/magazine_template_0"+imageBook;
         $("#book1-trigger .book-thumb").attr("src", imageBookPath+"/image_000.jpg")
     </script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <!-- <script src="<?php base_url()?>assets/js/jquery-3.3.1.min.js"></script> -->
     <script src="<?php base_url()?>assets/js/bootstrap.min2.js"></script>
     <script src="<?php base_url()?>assets/js/jquery.nice-select.min.js"></script>
     <script src="<?php base_url()?>assets/js/jquery-ui.min.js"></script>
@@ -272,13 +220,10 @@
     <script src="<?php base_url()?>assets/js/mixitup.min.js"></script>
     <script src="<?php base_url()?>assets/js/owl.carousel.min.js"></script>
     <script src="<?php base_url()?>assets/js/main.js"></script>
-
-    <!-- Plugin JavaScript -->
     <script src="<?php base_url()?>assets/js/jquery.easing.min.js"></script>
     <script src="<?php base_url()?>assets/js/jquery.fittext.js"></script>
     <script src="<?php base_url()?>assets/js/wow.min.js"></script>
     <script src="<?php base_url()?>assets/js/creative.js"></script>
-
     <link rel="stylesheet" href="<?php base_url()?>assets/css/wow_book.css" type="text/css">
     <style>
         .wowbook-right .wowbook-gutter-shadow {
@@ -300,22 +245,13 @@
     <script src="<?php base_url()?>assets/js/wow_book.min.js"></script>
     <script type="text/javascript">
         <?php foreach($file as $row3) { ?>
-
         $(function(){
-
             function fullscreenErrorHandler(){
                 if (self!=top) return "The frame is blocking full screen mode. Click on 'remove frame' button above and try to go full screen again."
             }
-
-            // imageBook = ["1", "8"][ Math.floor(Math.random()*2)];
-            // imageBookPath = "./img/magazine_template_0"+imageBook+"/";
-            // $("#book1-trigger .book-thumb").attr("src", imageBookPath+"image_000.jpg")
-
             var optionsBook1 = {
                  height   : 1056
                 ,width    : 816*2
-                // ,maxWidth : 800
-                // ,maxHeight : 800
                 ,pageCount : 40
                 ,images : imageBookPath+"/image_{{xxx}}.jpg"
 
@@ -337,8 +273,6 @@
             var optionsBook2 = {
                  height   : 1024
                 ,width    : 725*2
-                // ,maxWidth : 800
-                // ,maxHeight : 400
                 ,pageNumbers: false
 
                 ,pdf: "<?=base_url('uploads/pdf/'.$row3["file_name"])?>"
@@ -350,7 +284,7 @@
                 ,centeredWhenClosed : true
                 ,hardcovers : true
                 ,curl: false
-                ,toolbar: "lastLeft, left, currentPage, right, lastRight, find, toc, zoomin, zoomout, download, flipsound, fullscreen, thumbnails"
+                ,toolbar: "lastLeft, left, currentPage, right, lastRight, find, toc, zoomin, zoomout, flipsound, fullscreen, thumbnails"
                 ,thumbnailsPosition : 'bottom'
                 ,responsiveHandleWidth : 50
                 ,onFullscreenError: fullscreenErrorHandler
@@ -360,7 +294,6 @@
                  height   : 600
                 ,width    : 880
                 ,maxWidth : 880
-                // ,maxHeight : 800
                 ,lightbox : "#book3-trigger"
                 ,lightboxClass : "lightbox-html"
                 ,lightboxBackground : "url(wood.jpg)"
@@ -389,13 +322,8 @@
                     $(elem).wowBook( books[elem] );
                     book=$.wowBook(elem);
                 }
-                // book.opts.onHideLightbox = function(){
-                //     setTimeout( function(){ book.destroy(); }, 1000);
-                // }
                 book.showLightbox();
             }
-
-
         });
         
         <?php } ?>

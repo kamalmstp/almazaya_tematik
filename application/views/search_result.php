@@ -98,7 +98,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <?php if(count($title)>0) { 
-                        echo "<p>".count($title)." data ditemukan</p>";
+                        // echo "<p>".count($title)." data ditemukan</p>";
                         foreach($title as $row) { ?>
                             <!-- <div class="col-lg-3">
                                 <a id="book2-trigger<?=$row['id_tematik']?>">
@@ -393,7 +393,7 @@
                 ,centeredWhenClosed : true
                 ,hardcovers : true
                 ,curl: false
-                ,toolbar: "lastLeft, left, currentPage, right, lastRight, find, toc, zoomin, zoomout, download, flipsound, fullscreen, thumbnails"
+                ,toolbar: "lastLeft, left, currentPage, right, lastRight, find, toc, zoomin, zoomout, flipsound, fullscreen, thumbnails"
                 ,thumbnailsPosition : 'bottom'
                 ,responsiveHandleWidth : 50
                 ,onFullscreenError: fullscreenErrorHandler
