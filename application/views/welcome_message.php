@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!doctype html>
 <html class="no-js" lang="en">
     
@@ -151,68 +150,7 @@
                                     <li><a class="utube text-white-2" href="https://www.youtube.com/channel/UCPWR9Ki4swRnEV_i2BHQPcQ" target="_blank"><i class="fab fa-youtube no-margin-right" aria-hidden="true"></i></a></li>
                                 </ul>
                             </div>
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">  
-    <meta name="description" content="Ogani Template">
-    <meta name="keywords" content="Ogani, unica, creative, html">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Al-Qur'an Tematik Almazaya Islamic School</title>
-    <title>WowBook, a flipbook jQuery plugin Preview - CodeCanyon</title>
-    <script>
-        var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-        if (iOS && top.location!= self.location) {
-            top.location = self.location.href;
-        }
-    </script>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="<?php base_url()?>assets/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="<?php base_url()?>assets/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="<?php base_url()?>assets/css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="<?php base_url()?>assets/css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="<?php base_url()?>assets/css/jquery-ui.min.css" type="text/css">
-    <link rel="stylesheet" href="<?php base_url()?>assets/css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="<?php base_url()?>assets/css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="<?php base_url()?>assets/css/style.css" type="text/css">
-    <link rel="stylesheet" href="<?php base_url()?>assets/css/animate.min.css" type="text/css">
-    <link rel="stylesheet" href="<?php base_url()?>assets/css/creative.css" type="text/css">
-</head>
 
-<body id="page-top">
-    <!-- Page Preloder -->
-    <div id="preloder">
-        <div class="loader"></div>
-    </div>    
-    <!-- Header Section Begin -->
-    <header class="header" style="min-height: 0;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-9">
-                    <div class="header__cart">
-                        <ul>
-                            <li><img src="<?php base_url()?>assets/img/logo1.png" alt="" style="height: 50px;"></li>
-                            <li><h4>Al-Qur'an Tematik Almazaya Islamic School</h4></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- Header Section End -->
-    <!-- Hero Section Begin -->
-    <section class="hero" style="padding: 0 0 50px 0;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                        <div class="hero__search__form" style="width:100%">
-                            <form action="<?php echo site_url('welcome/search_result') ?>" method="POST"  role="form">
-                                <input id="search" name="search" type="text" placeholder="Search here...">
-                                <button type="submit" class="site-btn">SEARCH</button>
-                            </form>
->>>>>>> 4d8eae5497624732f157cad7724f0d1ab731f1c2
                         </div>
                         <!-- end social media -->
                         <div class="col-lg-6 col-md-6 text-small text-md-right text-center" style="color: #fff;">&COPY; <?= date("Y")?> <a href="https://www.almazayaislamicschool.sch.id" target="_blank">Al Mazaya Islamic School</a></div>
@@ -228,21 +166,6 @@
         <!-- start reader -->
         <div style='display: none'><div id='book2'></div></div>
         <!-- end reader -->
-    
-<<<<<<< HEAD
-=======
-                    </div>
-                    <?php } ?>
-                </div>                
-            </div>            
-        </div>
-    </section>
-
-    <div style='display: none'>
-        <div id='book2'></div>
-    </div>
-    <!-- Categories Section End -->
->>>>>>> 4d8eae5497624732f157cad7724f0d1ab731f1c2
     <style>
         .hidden-FIXME{
             display: none;
@@ -363,28 +286,16 @@
             max-width: 450px;
         }
     </style>
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
+
 
     <!-- jQuery -->
     <script src="<?php echo base_url()?>assets/js/jquery.js"></script>
 
-        <!-- javascript libraries -->
-        <!-- <script type="text/javascript" src="<?php echo base_url()?>assets2/js/jquery.js"></script> -->
-    
-=======
->>>>>>> Stashed changes
-    <script src="<?php base_url()?>assets/js/jquery.js"></script>
->>>>>>> 4d8eae5497624732f157cad7724f0d1ab731f1c2
     <script>
         imageBook = ["1", "8"][ Math.floor(Math.random()*2)];
         imageBookPath = "./img/magazine_template_0"+imageBook;
         $("#book1-trigger .book-thumb").attr("src", imageBookPath+"/image_000.jpg")
     </script>
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
 
     <!-- <script src="<?php echo base_url()?>assets/js/bootstrap.min2.js"></script> -->
         <!-- <script type="text/javascript" src="<?php echo base_url()?>assets2/js/modernizr.js"></script> -->
@@ -445,21 +356,6 @@
     <!-- <script src="<?php echo base_url()?>assets/js/wow.min.js"></script> -->
     <script src="<?php echo base_url()?>assets/js/creative.js"></script>
 
-=======
->>>>>>> Stashed changes
-    <script src="<?php base_url()?>assets/js/bootstrap.min2.js"></script>
-    <script src="<?php base_url()?>assets/js/jquery.nice-select.min.js"></script>
-    <script src="<?php base_url()?>assets/js/jquery-ui.min.js"></script>
-    <script src="<?php base_url()?>assets/js/jquery.slicknav.js"></script>
-    <script src="<?php base_url()?>assets/js/mixitup.min.js"></script>
-    <script src="<?php base_url()?>assets/js/owl.carousel.min.js"></script>
-    <script src="<?php base_url()?>assets/js/main.js"></script>
-    <script src="<?php base_url()?>assets/js/jquery.easing.min.js"></script>
-    <script src="<?php base_url()?>assets/js/jquery.fittext.js"></script>
-    <script src="<?php base_url()?>assets/js/wow.min.js"></script>
-    <script src="<?php base_url()?>assets/js/creative.js"></script>
-    <link rel="stylesheet" href="<?php base_url()?>assets/css/wow_book.css" type="text/css">
->>>>>>> 4d8eae5497624732f157cad7724f0d1ab731f1c2
     <style>
         .wowbook-right .wowbook-gutter-shadow {
             background-image: url("<?php echo base_url()?>assets/page_right_background.png");
@@ -519,15 +415,7 @@
                 ,centeredWhenClosed : true
                 ,hardcovers : true
                 ,curl: false
-<<<<<<< Updated upstream
-                ,toolbar: "lastLeft, left, currentPage, right, lastRight, find, toc, zoomin, zoomout, flipsound, fullscreen, thumbnails"
-=======
-<<<<<<< HEAD
-                ,toolbar: "lastLeft, left, currentPage, right, lastRight, find, toc, zoomin, zoomout, fullscreen, thumbnails"
-=======
-                ,toolbar: "lastLeft, left, currentPage, right, lastRight, find, toc, zoomin, zoomout, flipsound, fullscreen, thumbnails"
->>>>>>> 4d8eae5497624732f157cad7724f0d1ab731f1c2
->>>>>>> Stashed changes
+
                 ,thumbnailsPosition : 'bottom'
                 ,responsiveHandleWidth : 50
                 ,onFullscreenError: fullscreenErrorHandler

@@ -115,15 +115,7 @@
                 </div>
                 <div class="row">
                     <?php if(count($title)>0) { 
-<<<<<<< Updated upstream
-                        // echo "<p>".count($title)." data ditemukan</p>";
-=======
-<<<<<<< HEAD
-                        
-=======
-                        // echo "<p>".count($title)." data ditemukan</p>";
->>>>>>> 4d8eae5497624732f157cad7724f0d1ab731f1c2
->>>>>>> Stashed changes
+
                         foreach($title as $row) { ?>
                     <!-- start post item -->
                     <div class="col-6 col-lg-3 col-md-4 grid-item margin-30px-bottom text-center text-md-left wow fadeInUp">
@@ -459,15 +451,8 @@
                 ,centeredWhenClosed : true
                 ,hardcovers : true
                 ,curl: false
-<<<<<<< Updated upstream
-                ,toolbar: "lastLeft, left, currentPage, right, lastRight, find, toc, zoomin, zoomout, flipsound, fullscreen, thumbnails"
-=======
-<<<<<<< HEAD
+
                 ,toolbar: "lastLeft, left, currentPage, right, lastRight, find, toc, zoomin, zoomout, fullscreen, thumbnails"
-=======
-                ,toolbar: "lastLeft, left, currentPage, right, lastRight, find, toc, zoomin, zoomout, flipsound, fullscreen, thumbnails"
->>>>>>> 4d8eae5497624732f157cad7724f0d1ab731f1c2
->>>>>>> Stashed changes
                 ,thumbnailsPosition : 'bottom'
                 ,responsiveHandleWidth : 50
                 ,onFullscreenError: fullscreenErrorHandler
