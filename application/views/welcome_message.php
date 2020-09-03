@@ -415,6 +415,7 @@
                 ,centeredWhenClosed : true
                 ,hardcovers : true
                 ,curl: false
+                ,toolbar: "lastLeft, left, currentPage, right, lastRight, find, toc, zoomin, zoomout, fullscreen, thumbnails"
 
                 ,thumbnailsPosition : 'bottom'
                 ,responsiveHandleWidth : 50
